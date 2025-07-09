@@ -17,6 +17,10 @@ public class StudentMark {
 	String studentName = s1.nextLine();
 	System.out.println("Student name is "+studentName);
 	
+	System.out.println("Enter your class");
+	int clas = s.nextShort();
+	System.out.println("Student class is "+clas);
+	
 	System.out.println("Enter student Mark1 : ");
 	short mark1 = s.nextShort();
 	System.out.println("Student mark1 is "+mark1);
