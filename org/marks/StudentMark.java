@@ -42,7 +42,8 @@ public class StudentMark {
 	System.out.println("Student name is "+studentName);
 	System.out.println("Student Id is "+studentId);
 	//System.out.println("Student class is "+studentClass);
-	System.out.println("Total marks secured out of 250 : "+Total);
+	System.out.println("Total marks : 250");
+	System.out.println("Total marks secured : "+Total);
 	
 	
 }
