@@ -37,5 +37,7 @@ public class StudentMark {
 	short mark5 = s.nextShort();
 	System.out.println("Student mark5 is "+mark5);
 	
+	System.out.println("Total marks : 250");
+	
 }
 }
