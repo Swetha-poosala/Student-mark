@@ -9,13 +9,17 @@ public class StudentMark {
 	Scanner s = new Scanner(System.in);
 	Scanner s1 = new Scanner(System.in);
 	
-	System.out.println("Enter student Id : ");
-	int studentId = s.nextInt();
-	//System.out.println("Student Id is "+studentId);
-	
 	System.out.println("Enter student name : ");
 	String studentName = s1.nextLine();
 	//System.out.println("Student name is "+studentName);
+	
+	System.out.println("Enter student class : ");
+	String studentClass = s1.nextLine();
+	//System.out.println("Student class is "+studentClass);
+	
+	System.out.println("Enter student Id : ");
+	int studentId = s.nextInt();
+	//System.out.println("Student Id is "+studentId);
 	
 	System.out.println("Enter student Mark1 : ");
 	int mark1 = s.nextShort();
@@ -41,6 +45,7 @@ public class StudentMark {
 	
 	System.out.println("Student name is "+studentName);
 	System.out.println("Student Id is "+studentId);
+	System.out.println("Student class is "+studentClass);
 	System.out.println("Total marks secured : "+Total);
 	
 	
